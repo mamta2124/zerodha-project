@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .nav-link{
+  margin-left: 40px;
+}
+
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+} */
+
+/* Account Cards */
+.acc-card {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.acc-card:hover {
+  border-color: #387ed1; /* Zerodha blue */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+/* Title */
+.acc-card h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+/* Description */
+.acc-card p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #666;
+}
+
+/* Icon alignment */
+.acc-card img {
+  flex-shrink: 0;
+}
+
+/* Mobile spacing fix */
+@media (max-width: 576px) {
+  .acc-card {
+    padding: 16px;
+  }
+}
+
+
+
+
+footer {
+  font-size: 14px;
+}
+
+/* Logo responsive */
+.footer-logo {
+  width: 160px;
+  max-width: 100%;
+}
+
+/* Headings */
+.footer-heading {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+/* Footer links */
+.footer a {
+  display:inline-block;
+  margin-bottom: 6px;
+  color: #666;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #387ed1;
+}
+
+/* Laptop fix */
+@media (min-width: 992px) {
+  .footer {
+    padding-top: 30px;
+  }
+
+  .footer-logo {
+    width: 180px;
+  }
+}
+
+/* Mobile fix */
+@media (max-width: 576px) {
+  .footer {
+    text-align: left;
+  }
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding-top: 20px;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .footer-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.nav-link {
+  color: #333 !important;
+  font-weight: 500;
+}
+
+.nav-link.active {
+  color: #387ed1 !important; /* Zerodha blue */
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+}
