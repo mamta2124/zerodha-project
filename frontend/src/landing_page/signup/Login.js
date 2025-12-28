@@ -31,7 +31,7 @@ function Login() {
         "https://zerodha-project-ztyt.onrender.com/login",
         // "http://localhost:3002/login",
         { email, password },
-        { credentials: true }
+        { withCredentials: true }
       );
 
       if (data.success) {
