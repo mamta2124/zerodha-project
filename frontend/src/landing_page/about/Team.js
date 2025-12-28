@@ -57,32 +57,6 @@ function Team() {
       </div>
 
       {/* TEAM GRID */}
-      <div className="row p-3 text-muted">
-
-        {/* TEAM MEMBERS — Responsive Grid */}
-        {[
-          { role: "Co-founder & CFO" },
-          { role: "CTO" },
-          { role: "COO" },
-          { role: "CCO" },
-          { role: "Director" },
-          { role: "Chief of Education" },
-          { role: "Director Strategy" },
-        ].map((person, index) => (
-          <div
-            className="col-12 col-sm-6 col-md-4 col-lg-3 p-3 text-center"
-            key={index}
-          >
-            <img
-              src="media/images/nithinKamath.jpg"
-              style={{ borderRadius: "100%", width: "55%" }}
-              alt=""
-            />
-            <h5 className="mt-3">Nithin Kamath</h5>
-            <h6 className="mt-2">{person.role}</h6>
-          </div>
-        ))}
-      </div>
     </div>
   );
 }

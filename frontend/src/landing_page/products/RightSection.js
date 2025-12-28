@@ -19,7 +19,7 @@ function RightSection({
 
           <div className="mt-3">
             <a href={learnMore} style={{ textDecoration: "none" }}>
-              Learn More <i className="bi bi-arrow-right"></i>
+              Learn More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
           </div>
 
@@ -29,7 +29,7 @@ function RightSection({
               {googlePlay && (
                 <a href={googlePlay}>
                   <img
-                    src="media/googlePlayBadge.svg"
+                    src="media/images/googlePlayBadge.svg"
                     alt="Google Play"
                     className="img-fluid"
                     style={{ maxWidth: "150px" }}
@@ -39,7 +39,7 @@ function RightSection({
               {appStore && (
                 <a href={appStore}>
                   <img
-                    src="media/appstoreBadge.svg"
+                    src="media/images/appstoreBadge.svg"
                     alt="App Store"
                     className="img-fluid"
                     style={{ maxWidth: "150px" }}

@@ -16,7 +16,7 @@ function Hero() {
           <p className="mt-3 mb-4 text-muted fs-6">
             Check out our{" "}
             <a href="#" style={{ textDecoration: "none" }}>
-              investment offerings <i className="bi bi-arrow-right"></i>
+              investment offerings <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
           </p>
 

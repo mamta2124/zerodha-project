@@ -32,11 +32,11 @@ function LeftSection({
           {/* LINKS */}
           <div className="mt-3 d-flex flex-column flex-sm-row gap-3">
             <a href={tryDemo} style={{ textDecoration: "none" }}>
-              Try Demo <i className="bi bi-arrow-right"></i>
+              Try Demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
 
             <a href={learnMore} style={{ textDecoration: "none" }}>
-              Learn More <i className="bi bi-arrow-right"></i>
+              Learn More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
           </div>
 
@@ -44,7 +44,7 @@ function LeftSection({
           <div className="mt-4 d-flex flex-column flex-sm-row gap-3">
             <a href={googlePlay}>
               <img
-                src="media/googlePlayBadge.svg"
+                src="media/images/googlePlayBadge.svg"
                 className="img-fluid"
                 style={{ maxWidth: "150px" }}
                 alt="Google Play"
@@ -53,7 +53,7 @@ function LeftSection({
 
             <a href={appStore}>
               <img
-                src="media/appstoreBadge.svg"
+                src="media/images/appstoreBadge.svg"
                 className="img-fluid"
                 style={{ maxWidth: "150px" }}
                 alt="App Store"
