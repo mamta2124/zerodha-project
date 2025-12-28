@@ -28,8 +28,7 @@ function Login() {
 
     try {
       const { data } = await axios.post(
-        "https://zerodha-project-ztyt.onrender.com/login",
-        // "http://localhost:3002/login",
+        "http://localhost:3002/login",
         { email, password },
         { withCredentials: true }
       );

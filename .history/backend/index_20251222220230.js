@@ -22,11 +22,10 @@ app.set("trust proxy", 1);
    ✅ MIDDLEWARES (ORDER IMPORTANT)
 ======================= */
 app.use(cors({
-  origin: ["https://zerodha-project-ztyt.onrender.com", "http://localhost:3000","http://localhost:3001"],
+  origin: ["http://localhost:3000","http://localhost:3001"],
   methods: ["GET", "POST", "OPTIONS"],
   credentials: true
 }));
-app.options("*",cors());
 
 app.use(express.json()); // 🔥 MOST IMPORTANT
 app.use(express.urlencoded({ extended: true }));

@@ -26,7 +26,6 @@ app.use(cors({
   methods: ["GET", "POST", "OPTIONS"],
   credentials: true
 }));
-app.options("*",cors());
 
 app.use(express.json()); // 🔥 MOST IMPORTANT
 app.use(express.urlencoded({ extended: true }));

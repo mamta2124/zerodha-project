@@ -24,8 +24,7 @@ const Hero = forwardRef((props, ref) => {
 
             try {
                 const { data } = await axios.post(
-                    "https://zerodha-project-ztyt.onrender.com/verify",
-                    // "http://localhost:3002/verify",
+                    "http://localhost:3002/verify",
                     {},
                     { withCredentials: true }
                 );
@@ -55,8 +54,7 @@ const Hero = forwardRef((props, ref) => {
     const handleLoginSuccess = async () => {
         try {
             const { data } = await axios.post(
-                "https://zerodha-project-ztyt.onrender.com/verify",
-                // "http://localhost:3002/verify",
+                "http://localhost:3002/verify",
                 {},
                 { withCredentials: true }
             );
