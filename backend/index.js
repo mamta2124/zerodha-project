@@ -22,7 +22,7 @@ app.set("trust proxy", 1);
    ✅ MIDDLEWARES (ORDER IMPORTANT)
 ======================= */
 app.use(cors({
-  origin: ["https://zerodha-project-1-tcmc.onrender.com", "http://localhost:3000","http://localhost:3001"],
+  origin: [ "https://zerodha-project-1-tcmc.onrender.com","http://localhost:3000","http://localhost:3001","*"],
   methods: ["GET", "POST", "OPTIONS"],
   credentials: true
 }));
